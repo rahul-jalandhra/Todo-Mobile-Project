@@ -156,24 +156,33 @@ legend {
         flex-direction: column;
         align-content: space-between;
         height: auto;
+        width: 80%;
     }
     a{
         width: 100%;
     }
     .card-container .card{
-        height: 69px;
+        height: 50px;
         width: 100%;
         margin: 20px auto;
         box-sizing: border-box;
     }
     .card-container .card p{
+        font-weight: normal;
+        color: gray;
         border: none;
+        margin: 0px;
+        padding: 0px;
     }
     .card-container .card form{
         display: none;
     }
     .card-container .card input, .card-container .card label{
         display: none;
+    }
+    #card-view {
+
+        height: 400px;
     }
     .popup-add-new{
         top: -200px;
@@ -184,11 +193,11 @@ legend {
         width: 100%;
         border: none;
         text-align: left;
-        font-size: 35px;
+        font-size: 30px;
     }
     .back-arrow{
         position: absolute;
-        top: 15px;
+        top: 10px;
         left: 10px;
         font-size: 30px;
     }
@@ -197,8 +206,16 @@ legend {
     }
     #back-arrow{
         position: absolute;
-        top: -5px;
+        top: -10px;
         left: 0px;
         font-size: 30px;
+    }
+    #input-name{
+        width: 150px;
+    }
+    #plus-item{
+        position: relative;
+        top: 220px;
+        left: 165px;
     }
 }
